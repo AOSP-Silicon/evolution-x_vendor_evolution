@@ -25,6 +25,9 @@
         <!-- Don't pin camera app to save memory -->
         <item>runtime_native_boot/pin_camera=false</item>
 
+	<!-- ART heap compaction for cached apps -->
+	<item>activity_manager/use_compaction=true</item>
+
         <!-- Keep up to 7 days of permission usage history -->
         <item>privacy/discrete_history_cutoff_millis=604800000</item>
         <item>privacy/privacy_dashboard_7_day_toggle=true</item>
